@@ -1,0 +1,12 @@
+tuple=(1,2,3,4,5,6,7,8,9,10,11,12)
+print(tuple)
+print(tuple[0:3])
+print(tuple[3:7])
+print(tuple[7:12])
+print(tuple.count(18))
+print(tuple.index(1))
+fruits=("apple","cherry","banana","mango","guava")
+a,*b,c=fruits#a,b ozhikeye bakkiyullathu
+print(a)
+print(b)
+print(c)
